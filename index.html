@@ -3,32 +3,108 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
+    <link rel="stylesheet" type="text/css" href="preloader.css">
+    <link rel="stylesheet" href="css/eve.css">
+  	<link rel="stylesheet" href="css/style.css">
+  	<link rel="stylesheet" type="text/css" href="css/footer.css">
+  	<link rel="stylesheet" type="text/css" href="css/nav.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
+<title>P.I.N.G</title>
 <body>
  <!-- preloader -->
- <div class="loader-wrapper ">
-  <div class="container-fluid ">
-      <div class="row" style="height: 100vh;">
-          <div class="col d-flex align-items-center justify-content-center">
-              <div class="cell " >
-                  <div class="fadeImg  d-flex justify-content-center align-items-center" style="height: 50vh;">
-                      <img src="../common/preloader/img/t6.png">
-                      <img style="display:none;" src="../img/t1.png">
-                      <img style="display:none;" src="../img/t2.png">
-                      <img style="display:none;" src="../img/t3.png">
-                      <img style="display:none;" src="../img/t4.png">
-                      <img style="display:none;" src="../img/t5.png">
-                  </div>
-              </div>
+  <nav class="navbar fixed-top navbar-expand-xl ">
+    <a class="navbar-brand" href="../Home/homepage.html"><img style="margin-left: 1rem;"
+        src="../Achievements/img/pisb.png"></a> <button class="navbar-toggler navbar-dark" type="button"
+      data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+  
+        <!-- <li class="nav-item " id="">
+                  <a class="nav-link " id="link-1a" href="../Our-team/card20.html">About Us</a>
+              </li> -->
+  
+        <li class="nav-item dropdown">
+          <a class="nav-link " id="link-1a" href="../About-Us/aboutUs.html">About Us</a>
+  
+          <a class="nav-link dropdown-toggle" id="link-1b" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../About-Us/aboutUs.html#ieee-div">IEEE</a>
+            <a class="dropdown-item" href="../About-Us/aboutUs.html#pisb-div">PISB</a>
+            <a class="dropdown-item" href="../About-Us/aboutUs.html#ping-div">PING</a>
+            <a class="dropdown-item" href="../About-Us/aboutUs.html#wie-div">WIE</a>
+            <a class="dropdown-item" href="../About-Us/aboutUs.html#csi-div">CSI</a>
           </div>
-      </div>
-  </div>
-</div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link " id="link-1a" href="../Events/events.html">Events</a>
+  
+          <a class="nav-link dropdown-toggle" id="link-1b" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Events/events.html#credenz">Credenz</a>
+            <a class="dropdown-item" href="../Events/events.html#ctd">CTD</a>
+            <a class="dropdown-item" href="../Events/events.html#seminar">Seminars</a>
+            <a class="dropdown-item" href="../Events/events.html#workshop">SIGs</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link " id="link-1a" href="../Achievements/achievements.html">Achievements</a>
+  
+          <a class="nav-link dropdown-toggle" id="link-1b" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Achievements/achievements.html#projects-div">Projects</a>
+            <a class="dropdown-item" href="../Achievements/achievements.html#hackathons-div">Hackathons</a>
+            <a class="dropdown-item" href="../Achievements/achievements.html#research-div">Research
+              Papers</a>
+            <a class="dropdown-item" href="../Achievements/achievements.html#awards-div">Awards</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Our-team/card20.html">Our Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Domains-Page/domains.html">Domains</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#" class="btn btn-info btn-round" data-toggle="modal" data-target="#loginModal">
+            <i style="margin-right: 4px;" class="fas fa-pencil-alt"></i>&nbspJoin Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i style="margin-right: 4px;" class="fas fa-phone"></i>&nbspContact
+            us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  
+
+  
+  <!-- contanier 1 main-->
+  <div style="margin-top: 3.5rem;" class="container-fluid">
 	<div class="container page-header text-center">
         <h1>PICT IEEE Newsletter Group</h1>
    </div>
@@ -47,11 +123,12 @@
      With the imminent Issue 16.1, be ready to get PING'd!</p>
 </div>
 
-
-  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+<p>
+<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
     open magazine
-  </a>
+</a>
 </p>
+
 <div class="collapse" id="collapseExample">
   <div class="card card-body">
   	<section id="heading">
@@ -69,6 +146,7 @@
 	</section>
   </div>
 </div>
+<a id="button"></a>
 <section id="page1">
 	<p id="heading1">PREVIOUS MAGAZINES</p>
 	<div class="container">
@@ -102,10 +180,160 @@
 		 </div>
 	</div>
 </section>
+<!---footer---->
+       <footer class="new_footer_area bg_color">
+        <div class="new_footer_top">
+            <div class="footer_bg"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="f_widget company_widget wow fadeInLeft in-left" data-wow-delay="0.2s"
+                            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                            <br>
+                            <br>
+                            <img class="logo-footer" src="img/pisb.png" alt="logo-footer"
+                                data-at2x="assets/img/logo.png">
+                            &nbsp;
+                            <img class="logo-footer" src="img/ieee.png" alt="logo-footer"
+                                data-at2x="assets/img/logo.png">
+                            <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true"
+                                _lpchecked="1">
+                                <p>PICT IEEE Student Branch aims to inspire innovation in various technological fields
+                                    and to help breach boundaries with every new idea.</p>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="f_widget company_widget wow fadeInLeft in-left" data-wow-delay="0.6s"
+                            style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                            <br>
+                            <br>
+                            <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
+                            <p>Don’t miss out on any updates on new Hackathons and competitions!</p>
+                            <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true"
+                                _lpchecked="1">
+                                <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                                <button class="btn btn_get btn_get_two" type="submit">Submit</button>
+                                <p class="mchimp-errmessage" style="display: none;"></p>
+                                <p class="mchimp-sucmessage" style="display: none;"></p>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft in-left" data-wow-delay="1s"
+                            style="visibility: visible; animation-delay: 1s; animation-name:fadeInLeft;">
+                            <br>
+                            <br>
+                            <h3 class="f-title f_600 t_color f_size_18">Follow Us</h3>
+                            <div class="footericon">
+                                <ul class="social-network social-circle">
+                                    <li><a class="icoLinkedin" href="" title="Linkedin"><i
+                                                class="fab fa-linkedin-in"></i></a></li>
+                                    <!--<li><a class="icoTwitter" href="" title="Twitter"><i class="fa fa-twitter"></i></a></li>-->
+                                    <li><a class="icoYoutube" href="" title="YouTube"><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                    <!--<li><a class="icoQuora" href="" title="Quora"><i class="fa fa-quora"></i></a></li>-->
+                                    <li><a class="icoFacebook" href="" title="Facebook"><i
+                                                class="fab fa-facebook"></i></a></li>
+                                    <li><a class="icoInstagram" href="" title="Instagram"><i
+                                                class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p style="text-align: center;" class="mb-0 f_400">© PICT IEEE STUDENT BRANCH| Web Team.</p>
+        </div>
+    </footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script type="text/javascript" src="script.js"></script>
+ <script type="text/javascript">
+    $(window).on("load", function () {
+      $(".loader-wrapper").fadeOut("slow");
+    });
+ </script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="turn.js"></script>
 <script type="text/javascript">
 	$('#magazine').turn({gradients: true, acceleration:true});
 </script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+ <script type="text/javascript" src="../common/scrollToTop/arrow.js"></script>
+
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+       <script>
+        // const $dropdown = $(".dropdown");
+        // const $dropdownToggle = $(".dropdown-toggle");
+        // const $dropdownMenu = $(".dropdown-menu");
+        // const showClass = "show";
+
+        // $(window).on("load resize", function () {
+        //   if (this.matchMedia("(min-width: 768px)").matches) {
+        //     $dropdown.hover(
+        //       function () {
+        //         const $this = $(this);
+        //         $this.addClass(showClass);
+        //         $this.find($dropdownToggle).attr("aria-expanded", "true");
+        //         $this.find($dropdownMenu).addClass(showClass);
+        //       },
+        //       function () {
+        //         const $this = $(this);
+        //         $this.removeClass(showClass);
+        //         $this.find($dropdownToggle).attr("aria-expanded", "false");
+        //         $this.find($dropdownMenu).removeClass(showClass);
+        //       }
+        //     );
+        //   } else {
+        //     $dropdown.off("mouseenter mouseleave");
+        //   }
+        // });
+
+  let link1a = document.getElementById("link-1a")
+  let link1b = document.getElementById("link-1b")
+
+
+  link1a.addEventListener("mouseenter", function () {
+    link1b.style.background = "#DEF2F1";
+    link1b.style.color = "#17252a";
+  })
+  link1a.addEventListener("mouseout", function () {
+    link1b.style.background = "";
+    link1b.style.color = "";
+
+  })
+
+
+  link1b.addEventListener("mouseenter", function () {
+    link1a.style.background = "#DEF2F1";
+    link1a.style.color = "#17252a";
+
+  })
+  link1b.addEventListener("mouseout", function () {
+    link1a.style.background = "";
+    link1a.style.color = "";
+
+  })
+    </script>
+
+ <script  src="js/script.js"></script>
+ <script src="js/links.js"></script>
+ 
 </body>
 </html>
