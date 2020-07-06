@@ -4,7 +4,9 @@ overflow-x: hidden;
 #collapseExample{
   width: 100%;
 }
-
+.text{
+  font-style: sans-serif;
+}
 #mainmag{
   width: 250px;
   height: 350px;
