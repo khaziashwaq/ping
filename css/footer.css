@@ -75,8 +75,11 @@ div.footer_bottom {
 }
 
 .new_footer_top .company_widget .f_subscribe_two .btn_get {
-    border-width: 1px;
+    border-width: 5px;
     margin-top: 20px;
+    font-size: 12px;
+    position: relative;
+    
 }
 
 footer .btn_get_two:hover {
@@ -182,6 +185,8 @@ footer .btn {
 
 footer .row {
     background-color: transparent;
+    position: relative;
+    top:10px;
 }
 
 .new_footer_top .footer_bg {
@@ -215,6 +220,7 @@ img.logo-footer {
 
 footer .form-control {
     width: auto;
+    font-size: 15px;
 }
 
 footer ul.social-network {
