@@ -1,6 +1,11 @@
 body{
 	background: #d8d8d8;
 }
+
+#mainmag{
+	position: relative;
+	left: 100px;
+}
 .social-menu ul{
 	position: relative;
 	top: 50%;
@@ -10,6 +15,10 @@ body{
 	margin:0;
 	transform: translate(-50%, -50%);
 	display: flex;
+}
+.para{
+	position: relative;
+	top: 10px;
 }
 .social-menu ul li{
 	list-style: none;
