@@ -8,7 +8,10 @@ overflow-x: hidden;
 #ping{
   height: 645px;
 }
+.bttn-cont{
+  padding-top: 50px;
 
+ }
 #collapseExample{
   width: 100%;
 }
@@ -109,16 +112,19 @@ body {
 
 }
 
+
 #image{
-  height: 290px;
-  width: 290px;
+  height: 300px;
+  width: 250px;
 }
 #Heading{
   margin: 9vh;
 }
-
+.container p{
+  padding-bottom: 20px;
+}
 p{
-  font-size: 25px;
+  font-size: 28px;
 }
 col-md-2{
   position: relative;
@@ -130,6 +136,15 @@ col-md-2{
 }
 .gallery__img:hover{
   transform: scale(1.09);
+}
+#link-1a{
+  font-size: 16px;
+}
+.nav-link{
+  font-size: 16px;
+}
+.dropdown-item{
+  font-size: 16px;
 }
 
 @media (max-width: 768px){
@@ -146,6 +161,14 @@ col-md-2{
   left: 10px;
   width: 50%;a
 
+ }
+ .bttn-cont{
+  padding-top: 30px;
+  padding-bottom: 30px;
+ }
+ #Heading1{
+  padding-bottom:30px; 
+  padding-top:30px;
  }
  .gallery__img{
   width: 250px;
@@ -165,6 +188,7 @@ col-md-2{
  .sm{
   padding-right: 10px;
   padding-top: 20px;
+  text-align: center;
  }
  .socialicon{
   width: 50px;
@@ -173,10 +197,7 @@ col-md-2{
  #Heading{
   padding-top: 20px;
  }
- .container h2{
-  padding-top: 30px;
-  padding-bottom:30px;
- }
+
  #image{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -188,4 +209,11 @@ col-md-2{
   bottom:12px;
  
  }
+ #image{
+  height: 300px;
+  width: 250px;
+ }
+.footer_bottom p{
+  font-size: 15px;
+}
 }
