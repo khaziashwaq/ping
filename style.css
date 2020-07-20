@@ -111,7 +111,19 @@ body {
   line-height: 1.6;
 
 }
+.tag1{
+  font-size: 15px;
+  position: relative;
+  left: 440px;
+  bottom: 40px;
+}
+.tag2{
+  font-size: 15px;
+  position: relative;
+  bottom: 40px;
+  left: 440px;
 
+}
 
 #image{
   height: 300px;
@@ -123,6 +135,10 @@ body {
 .container p{
   padding-bottom: 20px;
 }
+.socialicon{
+  margin-top: 20px;
+}
+
 p{
   font-size: 18px;
 }
@@ -166,6 +182,22 @@ col-md-2{
   padding-top: 30px;
   padding-bottom : 30px;
  }
+.socialicon{
+  position: relative;
+  left: 5px;
+  margin-left: 15px;
+  margin-top: 0px;
+}
+.tag1{
+  position: relative;
+  left: 5px;
+  margin-right: 30px;
+}
+.tag2{
+  position: relative;
+  left: 5px;
+  margin-right: 30px;
+}
  #Heading1{
   padding-bottom:30px; 
   padding-top:30px;
@@ -190,12 +222,6 @@ col-md-2{
   padding-top: 20px;
   text-align: center;
  }
- .socialicon i::before{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom:12px;
- }
  #Heading{
   padding-top: 20px;
  }
@@ -204,12 +230,6 @@ col-md-2{
   padding-top: 40px;
   padding-bottom: 0px;
  } */
- .socialicon i::before{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom:12px;
- }
  #image{
   height: 300px;
   width: 250px;
