@@ -9,7 +9,7 @@ overflow-x: hidden;
   height: 645px;
 }
 .bttn-cont{
-  padding-top: 50px;
+  padding-top: 30px;
 
  }
 #collapseExample{
@@ -124,7 +124,7 @@ body {
   padding-bottom: 20px;
 }
 p{
-  font-size: 28px;
+  font-size: 18px;
 }
 col-md-2{
   position: relative;
@@ -148,6 +148,7 @@ col-md-2{
 }
 
 @media (max-width: 768px){
+  
  .card{
   width: 100%;
  }
@@ -159,55 +160,55 @@ col-md-2{
  }
  #mainmag{
   left: 10px;
-  width: 50%;a
-
+  width: 50%;
  }
  .bttn-cont{
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom : 30px;
  }
  #Heading1{
   padding-bottom:30px; 
   padding-top:30px;
  }
- .gallery__img{
+ /* .gallery__img{
   width: 250px;
   height: 300px;
   padding-left: 30px;
   padding-bottom:20px;
   position: relative;
   left: 50px;
- }
- .col-md-7 p{
+ } */
+ /* .col-md-7 p{
   position: relative;
   right: 50px;
   font-size: 20px;
   padding-left: 30px;
   padding-right: 30px;
- }
+ } */
  .sm{
   padding-right: 10px;
   padding-top: 20px;
   text-align: center;
- }
- .socialicon{
-  width: 50px;
-  height: 50px;
- }
- #Heading{
-  padding-top: 20px;
- }
-
- #image{
-  padding-top: 20px;
-  padding-bottom: 20px;
  }
  .socialicon i::before{
   position: absolute;
   width: 100%;
   height: 100%;
   bottom:12px;
- 
+ }
+ #Heading{
+  padding-top: 20px;
+ }
+
+ /* #image{
+  padding-top: 40px;
+  padding-bottom: 0px;
+ } */
+ .socialicon i::before{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom:12px;
  }
  #image{
   height: 300px;
