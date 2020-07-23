@@ -92,13 +92,17 @@ overflow-x: hidden;
   float: left;
 }
  .team-photo1{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 450px;
     height: 280px;
-    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    
 }
 h2{
 
@@ -173,7 +177,9 @@ col-md-2{
 }
 
 @media (max-width: 768px){
-  
+  .team-photo1{
+    padding: 10px 60px 30px 20px;
+  }
  .card{
   width: 100%;
  }
