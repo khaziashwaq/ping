@@ -187,6 +187,9 @@ col-md-2{
   left: 10px;
   width: 50%;
  }
+ .container-fluid h2{
+  font-size: 30px;
+ }
  .bttn-cont{
   padding-top: 30px;
   padding-bottom : 30px;
