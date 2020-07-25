@@ -1,7 +1,7 @@
 body{
 overflow-x: hidden;
 }
-.socialping{
+/*.socialping{
   box-sizing: border-box;
   width: 400px;
   padding-left: 30px;
@@ -10,10 +10,11 @@ overflow-x: hidden;
   left: 30px;
   bottom: 10px;
 
-}
+}*/
 .socialping h3{
   position: relative;
-  left: 50px;
+
+  font-weight: bold;
   bottom: 25px;
   font-size: 25px;
 }
@@ -192,6 +193,9 @@ col-md-2{
 @media (max-width: 768px){
  .card{
   width: 100%;
+ }
+ #followus{
+  text-align: center;
  }
  .socialping{
     box-sizing: border-box;
