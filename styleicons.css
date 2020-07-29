@@ -72,8 +72,8 @@
   position: absolute;
   top: 10px;
   left: -20px;
-  height: 100%;
-  width: 20px;
+  height: 70%;
+  width: 10px;
   background: #b2b2b2;
   transition: 0.5s;
   transform: rotate(0deg) skewY(-45deg);
