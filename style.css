@@ -13,10 +13,12 @@ overflow-x: hidden;
 }*/
 .socialping h3{
   position: relative;
-
+  text-align: center;
   font-weight: bold;
   bottom: 25px;
   font-size: 25px;
+  padding-top: 30px;
+  padding-bottom:30px; 
 }
 .col-lg-7{
   position: relative;
@@ -200,6 +202,8 @@ col-md-2{
  .socialping{
     box-sizing: border-box;
     width: 300px;
+    position: relative;
+    left: 12%
  }
  .magazine{
   width: 100%;
