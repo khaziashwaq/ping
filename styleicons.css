@@ -63,13 +63,8 @@
 .socialping ul li a {
   position: relative;
   display: block;
-<<<<<<< HEAD
   width: 65px;
   height: 65px;
-=======
-  width: 35px;
-  height: 35px;
->>>>>>> 8e6a235333afd61b802bf6feac24ebdb9a6321b0
   background: #fff;
   text-align: center;
   transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
