@@ -64,6 +64,8 @@ body{
     grid-row-gap: 60vh;
     display: block;
     padding: 10px 40px;
+    padding-bottom: 70px;
+    width: 350px;
   }
   
   .grid:hover {

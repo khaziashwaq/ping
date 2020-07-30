@@ -14,8 +14,7 @@
 	padding-bottom: 80px;
 	padding-top: 40px;
 	padding-left: 50px;
-  position: relative;
-  left: 100%;
+
 }
 .fa-facebook-f:after{
   color: white;
@@ -47,6 +46,9 @@
   padding: 0;
   list-style: none;
   display: flex;
+  padding-bottom: 30px;
+
+
 }
 
 .socialping ul li {
