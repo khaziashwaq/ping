@@ -11,9 +11,8 @@
 	
 }
 .socialping{
-	padding-bottom: 80px;
-	padding-top: 40px;
-	padding-left: 50px;
+  position: relative;
+  left: 35%;
 
 }
 .fa-facebook-f:after{
