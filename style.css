@@ -214,6 +214,13 @@ col-md-2{
   position: relative;
   bottom: 8px;
 }
+#followus{
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
 
 @media (max-width: 768px){
  .card{
