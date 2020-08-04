@@ -10,19 +10,13 @@
 	top: 15px;
 	
 }
-.socialping{
-  position: relative;
-  left: 35%;
 
-}
 .fa-facebook-f:after{
   color: white;
 }
 @media (max-width: 600px) {
   .socialping ul {
     transform: scale(0.8);
-    position: relative;
-    right: 30px;
   }
 }
 
@@ -46,6 +40,7 @@
   list-style: none;
   display: flex;
   padding-bottom: 30px;
+  justify-content: center;
 
 
 }

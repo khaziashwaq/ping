@@ -226,14 +226,18 @@ col-md-2{
  .card{
   width: 100%;
  }
+ .socialping ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  padding-bottom: 30px;
+  justify-content: center;
+
+
+}
  #followus{
   text-align: center;
- }
- .socialping{
-    box-sizing: border-box;
-    width: 300px;
-    position: relative;
-    left: 90%;
  }
  .magazine{
   width: 100%;
