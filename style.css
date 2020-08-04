@@ -191,6 +191,29 @@ col-md-2{
 .dropdown-item{
   font-size: 16px;
 }
+.fa-facebook-f{
+  color: #142850;
+}
+.fa-linkedin{
+  color: #142850;
+}
+.fa-facebook-f:hover{
+  color: white;
+}
+.fa-linkedin:hover{
+  color: white;
+}
+.pingsocial li:hover .fab{
+  color:white;
+}
+.fa-facebook-f:before{
+  position: relative;
+  bottom: 7px;
+}
+.fa-linkedin:before {
+  position: relative;
+  bottom: 8px;
+}
 
 @media (max-width: 768px){
  .card{
