@@ -29,8 +29,11 @@
 @media (min-width: 701px) and (max-width: 800px) {
   .socialping ul {
     transform: scale(1);
-    position: relative;
-    right: 30px;
+  }
+}
+@media(min-width: 300px) and (max-width: 432px){
+  .socialping ul{
+    justify-content: center;
   }
 }
 

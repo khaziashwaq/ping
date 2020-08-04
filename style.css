@@ -219,9 +219,13 @@ col-md-2{
   font-weight: bold;
   font-size: 28px;
   padding-bottom: 40px;
-  padding-top: 50px;
+  padding-top:35px;
 }
-
+@media(max-width: 432px){
+  .socialping ul{
+    justify-content: center;
+  }
+}
 @media (max-width: 768px){
  .card{
   width: 100%;
@@ -311,10 +315,4 @@ col-md-2{
  }
 .footer_bottom p{
   font-size: 15px;
-}
-@media (max-width: 433px){
-  .socialping{
-    position: relative;
-    left: 5%;
-  }
 }

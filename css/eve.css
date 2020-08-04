@@ -65,7 +65,7 @@ div.bttn-cont {
   text-transform: uppercase;
   letter-spacing: 2px;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .bttn-cont .bttn:hover {
